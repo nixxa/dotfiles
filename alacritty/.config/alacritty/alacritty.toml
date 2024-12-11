@@ -1,4 +1,15 @@
 [window]
 padding = { x = 12, y = 12 }
 dynamic_padding = true
-opacity = 0.9
+opacity = 0.8
+
+[general]
+import = [
+  # "~/.config/alacritty/latte.toml"
+  # "~/.config/alacritty/frappe.toml"
+  # "~/.config/alacritty/macchiato.toml"
+  "~/.config/alacritty/mocha.toml"
+]
+
+[font]
+normal = { family = "Caskaydia Cove Nerd Font" }
