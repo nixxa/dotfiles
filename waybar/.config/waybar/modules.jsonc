@@ -21,7 +21,8 @@
         "format-ethernet": "  {ifname}",
         "format-linked": "{ifname} (No IP) ",
         "format-disconnected": "<span size='13000' foreground='#f5e0dc'>  </span>Disconnected",
-        "tooltip-format-wifi": "Signal Strenght: {signalStrength}%"
+        "tooltip-format-wifi": "Signal Strenght: {signalStrength}%",
+        "on-click": "alacritty -e nmtui"
     },
 
     "pulseaudio": {
@@ -41,16 +42,16 @@
     },
 
     "cpu": {
-        "format": "/ C {usage}% "
+        "format": "/ \uf4bc  {usage}%"
     },
 
     "memory": {
-        "format": "/ M {}% "
+        "format": "/ \uefc5  {}%"
     },
 
     "disk": {
         "interval": 30,
-        "format": "D {percentage_used}% ",
+        "format": " \uf0c7 {percentage_used}% ",
         "path": "/"
     },
 
