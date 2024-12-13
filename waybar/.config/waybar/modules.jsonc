@@ -35,23 +35,23 @@
     },
 
     "clock": {
-        "format": "<span foreground='#f5c2e7'>   </span>{:%a %d %H:%M}",
+        "format": "<span foreground='#f5c2e7'>  </span>{:%a %d %H:%M}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         "timezone": "Europe/Warsaw",
         "tooltip": false
     },
 
     "cpu": {
-        "format": "/ \uf4bc  {usage}%"
+        "format": "/\uf4bc {usage}%"
     },
 
     "memory": {
-        "format": "/ \uefc5  {}%"
+        "format": "/\uefc5 {}%"
     },
 
     "disk": {
         "interval": 30,
-        "format": " \uf0c7 {percentage_used}% ",
+        "format": "\uf0c7 {percentage_used}%",
         "path": "/"
     },
 

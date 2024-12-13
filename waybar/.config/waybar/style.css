@@ -58,8 +58,6 @@ button:hover {
 #clock,
 #battery,
 #cpu,
-#memory,
-#disk,
 #temperature,
 #backlight,
 #wireplumber,
@@ -75,9 +73,30 @@ button:hover {
   padding-right: 0px;
 }
 
+#disk {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 10px;
+  margin-right: 2px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#memory {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+
 #clock {
     color: @maroon;
     border-bottom: 2px solid @maroon;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #clock.date {
