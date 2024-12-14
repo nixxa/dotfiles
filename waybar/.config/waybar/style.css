@@ -3,7 +3,7 @@
 * {
     font-family: "Caskaydia Cove Nerd Font";
     font-size: 14px;
-    min-height: 0;
+    min-height: 0px;
     font-weight: bold;
 }
 
@@ -54,7 +54,6 @@ button:hover {
     background-color: #eb4d4b;
 }
 
-#pulseaudio,
 #clock,
 #battery,
 #cpu,
@@ -62,7 +61,6 @@ button:hover {
 #backlight,
 #wireplumber,
 #tray,
-#network,
 #mode,
 #scratchpad {
   margin-top: 2px;
@@ -71,6 +69,16 @@ button:hover {
   margin-right: 2px;
   padding-left: 0px;
   padding-right: 0px;
+}
+
+#network {
+  margin: 2 2 2 2;
+  padding: 2 6 2 0;
+}
+
+#pulseaudio {
+  margin: 2 2 2 2;
+  padding: 2 6 2 0;
 }
 
 #disk {
@@ -95,7 +103,7 @@ button:hover {
 #clock {
     color: @maroon;
     border-bottom: 2px solid @maroon;
-    padding-left: 10px;
+    padding-left: 4px;
     padding-right: 10px;
 }
 
