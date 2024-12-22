@@ -75,5 +75,11 @@
             ""
         ],
         "tooltip-format": "{time}"
+    },
+
+    "custom/exit": {
+        "format": "<span size='13000'> {icon} </span>",
+        "format-icons": [""],
+        "on-click": "~/.config/rofi/powermenu/powermenu.sh"
     }
 }
