@@ -31,7 +31,7 @@ window {
     enabled:                     true;
     margin:                      0px;
     padding:                     0px;
-    border:                      0px solid;
+    border:                      1px solid;
     border-radius:               12px;
     border-color:                @selected;
     cursor:                      "default";
@@ -48,7 +48,7 @@ mainbox {
     border-radius:               0px;
     border-color:                @selected;
     background-color:            transparent;
-    children:                    [ "inputbar", "message", "listview" ];
+    children:                    [ "message", "listview" ];
 }
 
 /*****----- Inputbar -----*****/
@@ -56,8 +56,8 @@ inputbar {
     enabled:                     true;
     spacing:                     10px;
     margin:                      0px;
-    padding:                     0px;
-    border:                      0px;
+    padding:                     0px 0px 10px 0px;
+    border:                      0px 0px 1px dash 0px;
     border-radius:               0px;
     border-color:                @selected;
     background-color:            transparent;
@@ -86,11 +86,11 @@ prompt {
 message {
     enabled:                     true;
     margin:                      0px;
-    padding:                     10px;
-    border:                      0px solid;
-    border-radius:               10px;
+    padding:                     0px 0px 10px 0px;
+    border:                      0px 0px 1px dash 0px;
+    border-radius:               0px;
     border-color:                @selected;
-    background-color:            @background-alt;
+    background-color:            @background;
     text-color:                  @foreground;
 }
 textbox {
@@ -140,9 +140,9 @@ element {
     enabled:                     true;
     spacing:                     0px;
     margin:                      0px;
-    padding:                     10px;
+    padding:                     6px 10px 6px 10px;
     border:                      0px solid;
-    border-radius:               10px;
+    border-radius:               0px;
     border-color:                @selected;
     background-color:            transparent;
     text-color:                  @foreground;
