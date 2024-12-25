@@ -1,5 +1,7 @@
 # Arch notes
 
+Device: Lenovo Thinkpad X1 Extreme Gen 1
+
 ## Installation
 
 ### Git and dev tools
