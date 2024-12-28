@@ -1,0 +1,5 @@
+#!/bin/bash
+
+alacritty msg config font.normal='{ family="FiraCode" }'
+source ~/repos/tg/.venv/bin/activate
+tg
