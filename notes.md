@@ -4,9 +4,14 @@ Device: Lenovo Thinkpad X1 Extreme Gen 1
 
 ## Installation
 
-### Git and dev tools
+### Git, dev tools, yay
 ```sh
 sudo pacman -S git base-devel
+mkdir ~/repos
+cd ~/repos
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
 ```
 
 ### Audio
@@ -21,17 +26,23 @@ sudo pacman -S libva libva-utils intel-media-drive intel-gpu-tools
 
 ### Hyprland and friends
 ```sh
-sudo pacman -S hyprland hyprlock hyprpaper alacritty dunst rofi waybar htop
+sudo pacman -S hyprland hyprlock hyprpaper alacritty dunst rofi waybar htop stow
 ```
 
 ### VSCode
 ```sh
-sudo pacman -S code
+sudo pacman -S visual-studio-code-bin
 ```
 
 ### Browsers (Firefox & Chromium)
 ```sh
 sudo pacman -S firefox chromium
+```
+
+### Image viewers, editors, etc
+```sh
+yay -S timg
+yay -S loupe switcheroo drawing
 ```
 
 References:
